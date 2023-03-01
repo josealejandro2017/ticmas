@@ -1,15 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style_cv.css">
+    <link rel="stylesheet" href="estilo2_cv.css">
+    <script src="https://kit.fontawesome.com/809ab1917f.js" crossorigin="anonymous"></script>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	    <title>Curriculum Vitae</title>
 </head>
 <body>
-    <script src="script_cv.js"></script>
-    <p>Curriculum Vitaeee</p>
+    <button class="darkModeSwitch ms-2" id="switch">
+
+        <span id="icono1"><i class="fas fa-sun"></i></span>
+        <span id="icono2"><i class="fas fa-moon"></i></span> 
+     </button>
+
+	 <br>
+
+<header>
+	<div class="contenedor-1">
+        <button class="languages" onclick="changeLanguage()">Español</button>
+		<div class="contenedor_img">
+			<img src="37.jpg" alt="foto_perfil">
+		</div>
+
+		<div class="titulo">
+		  <h1 >Curriculum Vitae</h1>
+	    </div>
+<!-- <p>Información de contacto: correo electrónico, número de teléfono, dirección postal</p> -->
+
+        <div id="name">Apellido y Nombre: Aurelio Cecilia</div>
+        <div id="email">Correo electrónico: acecilia@gmail.com</div>
+		<div id="city">Ciudad: Michigan</div>
+		<div id="country">Pais: Estados Unidos</div>
+		<div id="phone">Telefono: 333-5555555</div>
+
+	</div>
+		
+	</header>
+	<main>
+		<section>
+			<h2>Experiencia Laboral</h2>
+			<ul>
+				<li>
+					<h3>Tesla Corp</h3>
+					<p>Analista Srr.</p>
+					<p>2019 - 2022</p>
+					<ul>
+						<li>Presentación balances</li>
+						<li>Aplicar en la empresa las nuevas tendencias que se hayan estudiado, buscando una mejora y desarrollo</li>
+						<li>Analizar y procesar los datos recogidos</li>
+					</ul>
+				</li>
+				<li>
+					<h3>Twiter Inc.</h3>
+					<p>Analista Jr.</p>
+					<p>2017 - 2018</p>
+					<ul>
+						<li>Ldentificar y realizar informes sobre los datos de la empresa, investigando diversas fuentes como la base de datos de la empresa, sus redes sociales</li>
+						<li>Estudiar las tendencias del mercado</li>
+						<li>Reportes Ejecutivos</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Educación</h2>
+			<ul>
+				<li>
+					<h3>Universidad en Ciencias de Datos</h3>
+					<p>Licenciado en Ciencias de Datos</p>
+					<p>2015 - 2017</p>
+				</li>
+				<li>
+					<h3>Universidad Tecnologica</h3>
+					<p>ingenieron en Ciencias de la Computación</p>
+					<p>2009 - 2014</p>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Habilidades</h2>
+			<ul>
+				<li>Empatía</li>
+				<li>Buena interacción </li>
+				<li>Comunicación asertiva</li>
+				<li>Flexibilidad</li>
+				<li>Escucha activa</li>
+				<li>Creatividad</li>
+				<li>Gestión del tiempo</li>
+				<li>Manejo de herramientas digitales</li>
+				<li>Adaptabilidad</li>
+				<li>Resolución de problemas</li>
+				<li>Constancia</li>
+				<li>Entusiasmo</li>
+				<li>Organización</li>
+				
+			</ul>
+		</section>
+	</main>
+
+<footer class="footer">
+	<div class="icono-footer">
+    <span id="icono3"><a href="#"><i class="fa-brands fa-facebook"></i></a></span>
+	<span id="icono4"><a href="#"><i class="fa-brands fa-github"></i></a></span>
+	<span id="icono5"><a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
+	<span id="icono6"><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+   </div>
+</footer>
+
+ <script src="script_cv.js"></script>
     
 </body>
 </html>
